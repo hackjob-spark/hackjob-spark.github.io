@@ -1,0 +1,260 @@
+/*
+    FIND A JOB STYLESHEET
+
+    CSS Author: Manubay, Chazz
+*/
+
+body {
+    font-family: Archivo, Arial, sans-serif;    
+    color: white;
+    background: linear-gradient(to left , #2B084E, #104841) center no-repeat fixed;
+}
+
+header {
+    vertical-align: middle;
+    text-align: right;
+    display: inline-block;
+    padding: 1rem;
+    width: 95%;
+}
+
+header > div {
+    display: inline-block;
+    vertical-align: center;
+}
+
+header .logo {
+    width: 10%;
+    float: left;
+    margin-left: 4rem;
+}
+
+header .logo a img {
+    width: 100%;
+}
+
+header .navigation nav{
+    padding: 1rem;
+}
+
+header .navigation nav a {
+    margin: 0 1.5rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation nav a {
+    color: white;
+}
+
+.navigation nav a:hover {
+    font-weight: 600;
+}
+
+.navigation nav a:active {
+    color: #9040E8;
+}
+
+/* ------------------------------- */
+
+hr {
+    background: linear-gradient(to left, #3476C2, #C924C2);
+    height: 0.35em;
+    border: none;
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.intro {
+    text-align: center;
+    margin: 6rem 0 4rem;
+}
+
+.intro h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.jump-links {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 20rem;
+}
+
+.jump-links a {
+    text-align: center;
+    text-decoration: none;
+    width: 20em;
+    padding: 1rem 0;
+    color: white;
+    font-weight: 600;
+
+    filter: saturate(0);
+    border-radius: 2rem;
+
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+}
+
+.jump-links a:hover {
+    filter: saturate(1) brightness(110%);
+}
+
+.jump-links a.cybersecurity { background-image: url("../MEDIA/IMAGES/cybersecurity-thumb.jpg");}
+
+.jump-links a.data-management { background-image: url("../MEDIA/IMAGES/datamgt-thumb.jpg"); }
+
+.jump-links a.software-dev { background-image: url("../MEDIA/IMAGES/softwaredev-thumb.jpg"); }
+
+.jump-links a.web-des-dev { background-image: url("../MEDIA/IMAGES/webdesdev-thumb.jpg");}
+
+.jump-links a.network-admin { background-image: url("../MEDIA/IMAGES/networking-thumb.jpg");}
+
+
+.offer .logo {
+    width: 20%;
+    margin: 5rem auto 0;
+}
+
+.offer .logo img {
+    width: 100%;
+}
+
+.title {
+    width: 50%;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+section > .title h2 {
+    font-size: 3rem;
+    margin: 5rem 0;
+    padding: 0.75rem;
+}
+
+section > .title {
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+
+    filter: brightness(110%);
+    margin: 15rem auto 3rem;
+}
+
+#cybersecurity > .title { background-image: url("../MEDIA/IMAGES/cybersecurity-thumb.jpg");}
+
+#data-management > .title { background-image: url("../MEDIA/IMAGES/datamgt-thumb.jpg"); }
+
+#software-dev > .title { background-image: url("../MEDIA/IMAGES/softwaredev-thumb.jpg"); }
+
+#web-des-dev > .title { background-image: url("../MEDIA/IMAGES/webdesdev-thumb.jpg");}
+
+#network-admin > .title { background-image: url("../MEDIA/IMAGES/networking-thumb.jpg");}
+
+.offer .title h3 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.offer .title p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+table thead tr {
+    background-color: #6342BF;
+}
+
+table tbody {
+    color: #6342BF;
+}
+
+table thead tr td {
+    padding: 1rem 0;
+}
+
+table tbody tr {
+    background-color: #CBBDF3;
+}
+
+table tbody td,
+table tbody th {
+    padding: 0.5rem 0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #B6B2E9;
+}
+
+table tbody td a {
+    text-decoration: none;
+    color: #6342BF; 
+}
+
+table tbody td a:hover {
+    text-decoration: underline;
+}
+
+
+.to-top {
+    width: 15%;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.to-top a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #C825C3, #3576C3);
+    border-style: none;
+}
+
+.to-top a:hover {
+    background: linear-gradient(to right, #9040E8, #33C7C3);
+}
+
+.to-top a:active {
+    background: linear-gradient(to right, #EEA358, #E5DE49);
+    color: #3E1F47;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+footer .copyright > p {
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+footer .copyright p > span {
+    font-weight: 800;
+}

@@ -1,0 +1,222 @@
+/*
+    IT DISCIPLINE SUBPAGES STYLESHEET
+
+    CSS Authors:
+        Trevecedo, Luc Elric R.
+        Depeño, Robin D.
+        Siena, Cris Leehan R.
+
+    Proofread by: Chazz C. Manubay
+*/
+
+/* -------------------------- Set-up for body -------------------------- */
+
+body {
+    font-family: Archivo, Arial, sans-serif;    
+    color: white;
+    background: linear-gradient(to bottom right , #2B084E, #104841) center no-repeat fixed;
+}
+
+/* -------------------------- Header style -------------------------- */
+
+header {
+    vertical-align: middle;
+    text-align: right;
+    display: inline-block;
+    padding: 1rem;
+    width: 95%;
+}
+
+header > div {
+    display: inline-block;
+    vertical-align: center;
+}
+
+header .logo {
+    width: 10%;
+    float: left;
+    margin-left: 4rem;
+}
+
+header .logo a img {
+    width: 100%;
+}
+
+header .navigation nav{
+    padding: 1rem;
+}
+
+header .navigation nav a {
+    margin: 0 1.5rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation nav a {
+    color: white;
+}
+
+.navigation nav a:hover {
+    font-weight: 600;
+}
+
+.navigation nav a:active {
+    color: #9040E8;
+}
+
+/* -------------------------- Bakc to IT disciplines link -------------------------- */
+.return {
+    margin-top: 2rem;
+}
+.return a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+
+.return a:hover {
+    font-weight: 600;
+}
+
+.return a:active {
+    color: #9040E8;
+}
+
+/* -------------------------- Data Management Title -------------------------- */
+
+.intro h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* -------------------------- Data Management Banner-------------------------- */
+
+.intro {
+    width: 65%;
+    margin: 2rem auto 2rem;
+}
+
+.intro img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+/* -------------------------- Data Management Description -------------------------- */
+
+.intro p {
+    margin-top: 3rem;
+
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    text-indent: 4rem;
+}
+
+/* -------------------------- Careers under data management -------------------------- */
+
+main h4 {
+    margin: 5rem 0;
+
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+main .careers {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main .careers .title {
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    font-weight: 800;
+}
+
+
+main .careers .description {
+    font-size: 1.125rem;
+    text-indent: 3rem;
+    margin: 0 0 5rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+
+    text-align: justify;
+}
+
+/* -------------------------- available jobs button -------------------------- */
+
+.explore-button {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.explore-button a {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    padding: 1.125rem 2rem;
+    background-image: linear-gradient(to right , #C825C3, #3576C3);
+    border-radius: 2rem;
+}
+
+.explore-button a:hover {
+    background: linear-gradient(to right, #9040E8, #33C7C3);
+}
+
+.explore-button a:active {
+    background: linear-gradient(to right, #EEA358, #E5DE49);
+    color: #3E1F47;
+}
+
+/* ------------- To Top ------------- */
+
+.to-top {
+    width: 15%;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.to-top a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #C825C3, #3576C3);
+    border-style: none;
+}
+
+.to-top a:hover {
+    background: linear-gradient(to right, #9040E8, #33C7C3);
+}
+
+.to-top a:active {
+    background: linear-gradient(to right, #EEA358, #E5DE49);
+    color: #3E1F47;
+}
+
+
+/* -------------------------- Footer style -------------------------- */
+
+footer { 
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+footer .copyright > p {
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+footer .copyright p > span {
+    font-weight: 800;
+}
+
+         
