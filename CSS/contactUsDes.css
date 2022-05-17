@@ -1,0 +1,225 @@
+/*
+    CONTACT US STYLESHEET
+
+    CSS Author: Trevecedo, Luc Elric R.
+    Proofread by: Chazz C. Manubay
+*/
+
+/* -------------------------- Set-up for body -------------------------- */
+
+body {
+    font-family: Archivo, Arial, sans-serif;    
+    color: white;
+    background: center no-repeat fixed linear-gradient(to right , #004149, #480130);
+}
+
+
+/* -------------------------- Header style -------------------------- */
+header {
+    vertical-align: middle;
+    text-align: right;
+    display: inline-block;
+    padding: 1rem;
+    width: 95%;
+}
+
+header > div {
+    display: inline-block;
+    vertical-align: center;
+}
+
+header .logo {
+    width: 10%;
+    float: left;
+    margin-left: 4rem;
+}
+
+header .logo a img {
+    width: 100%;
+}
+
+header .navigation nav{
+    padding: 1rem;
+}
+
+header .navigation nav a {
+    margin: 0 1.5rem;
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation nav a {
+    color: white;
+}
+
+.navigation nav a:hover {
+    font-weight: 600;
+}
+
+.navigation nav a:active {
+    color: #9040E8;
+}
+
+
+/* -------------------------- Contact us Banner-------------------------- */
+
+main .image {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+main .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+/* -------------------------- Got any feedback -------------------------- */
+
+.top {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.top h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.top h3 {
+    margin: 0.25rem 0 5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* -------------------------- Forms -------------------------- */
+
+::placeholder {
+    color: white;
+    font-size: 0.95rem;
+}
+
+.container {
+    list-style-type: none;
+    padding: 0;
+    width: 40%;
+
+    margin: 0 auto;
+}
+
+.container .row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.25rem;
+    align-items: center;
+}
+
+.container .row label {
+    flex: 1;
+
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.container .row input {
+    flex: 2;
+    padding: 0.75rem;
+    margin-left: 1rem;
+
+    color: white;
+    background-color: #8447D0;
+    border-radius: 0.25rem;
+    border-style: none;
+}
+
+.container .submit, .container .comment {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.comment {
+    flex-direction: column;
+}
+
+.comment label {
+    text-align: center;
+    margin-bottom: 1rem;
+
+    font-weight: 700;
+}
+
+.comment textarea {
+    font-family: Archivo, sans-serif;
+    padding: 1rem;
+    overflow-y: auto;
+    resize: none;
+
+    color: white;
+    background-color: #8447D0;
+    border-radius: 0.25rem;
+    border-style: none;
+}
+
+.submit button {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #C825C3, #3576C3);
+    border-style: none;
+}
+
+.submit button:hover {
+    background: linear-gradient(to right, #9040E8, #33C7C3);
+    cursor: pointer;
+}
+
+.submit button:active {
+    background: linear-gradient(to right, #EEA358, #E5DE49);
+    color: #3E1F47;
+}
+
+/* ------------------ Additional  ------------------ */
+
+.additional {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.additional p {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.additional h3 {
+    margin-top: 0;
+}
+
+.additional a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+/* -------------------------- Footer style -------------------------- */
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+footer .copyright > p {
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+footer .copyright p > span {
+    font-weight: 800;
+}

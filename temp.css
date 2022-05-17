@@ -5,12 +5,16 @@ CSS Author: Luc Elric R. Trevecedo
 Proofread by: Chazz C. Manubay
 */
 
+/* Set-up for body */
+
 body {
     font-family: Archivo, Arial, sans-serif;
     
     color: white;
     background: linear-gradient(to right bottom, #164861, #34173F) center no-repeat fixed;
 }
+
+/* Header style */
 
 header {
     vertical-align: middle;
@@ -46,6 +50,8 @@ header .navigation nav a {
     text-align: center;
 }
 
+/* Group Banner style */
+
 .banner {
     width: 60%;
     margin: 2rem auto 2rem;
@@ -55,6 +61,8 @@ header .navigation nav a {
     width: 100%;
     border-radius: 3em;
 }
+
+/* Main content style */
 
 main {
     text-align: center;
@@ -93,12 +101,16 @@ main > h2 {
     font-weight: 500;
 }
 
+/* Container Style */
+
 .members-container {
     background: linear-gradient(to right bottom, #23606B, #235943);
     width: 60%;
     margin: 2rem auto;
     border-radius: 4rem;
 }
+
+/* Container Heading */
 
 .members-container .title {
     display: block;
@@ -109,9 +121,13 @@ main > h2 {
     font-size: 2rem;
 }
 
+/* Alignment */
+
 .members-container > div {
     display: inline-block;
 }
+
+/* Thumbnail Style */
 
 .members-container img {
     filter: grayscale(1);
@@ -124,6 +140,8 @@ main > h2 {
     width: 18rem;
     border-radius: 2rem;
 }
+
+/* Individual Member Style */
 
 .member {
     margin: 0 1rem 1rem;
@@ -139,7 +157,9 @@ main > h2 {
     font-weight: 300;
 }
 
-footer {
+/* Footer style */
+
+footer { 
     left: 0;
     bottom: 0;
     width: 80%;
